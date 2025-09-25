@@ -1,9 +1,0 @@
-{
-  "name": "AL Dev Container",
-  "image": "mcr.microsoft.com/vscode/devcontainers/powershell",
-  "extensions": [
-    "ms-dynamics-smb.al",
-    "waldo.crs-al-language-extension",
-    "andrzejzwierzchowski.al-code-outline"
-  ]
-}

@@ -1,0 +1,14 @@
+{
+  "name": "AL Dev Container",
+  "image": "mcr.microsoft.com/vscode/devcontainers/powershell",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dynamics-smb.al",
+        "waldo.crs-al-language-extension",
+        "andrzejzwierzchowski.al-code-outline"
+      ]
+    }
+  },
+    "postCreateCommand": "pwsh /workspaces/MycodespaceRepo/.AL-Go/cloudDevEnv.ps1"
+}
