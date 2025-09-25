@@ -1,6 +1,6 @@
 {
   "name": "AL Dev Container",
-  "image": "mcr.microsoft.com/vscode/devcontainers/powershell",
+  "image": "mcr.microsoft.com/devcontainers/base:alpine",
   "customizations": {
     "vscode": {
       "extensions": [
